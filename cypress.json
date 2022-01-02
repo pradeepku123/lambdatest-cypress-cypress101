@@ -1,4 +1,7 @@
 {
     "$schema": "https://on.cypress.io/cypress.schema.json",
-    "video": false
+    "video": true,
+    "baseUrl": "https://www.lambdatest.com/selenium-playground/",
+    "viewportHeight": 1440,
+    "viewportWidth": 1200
 }

@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "lambdatest":"lambdatest-cypress run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.1.0",
+    "axe-core": "^4.3.5",
     "cypress": "^9.2.0"
+  },
+  "dependencies": {
+    "lambdatest-cypress-cli": "^2.1.2"
   }
 }
